@@ -2276,7 +2276,7 @@ if (IS_HEADER) {
 	init();
 } else {
 	// Allow status to render, then preload assets and start app.
-	setLoadingStatus('Lighting Fuses');
+	setLoadingStatus('Happy New Year');
 	setTimeout(() => {
 		soundManager.preload()
 		.then(
